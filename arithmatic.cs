@@ -25,5 +25,15 @@ public class Program
         Console.WriteLine("Provide second number for integer division");
         int integerTwo = int.Parse(Console.ReadLine());
         Console.WriteLine($"{integerOne} / {integerTwo} = {integerOne / integerTwo}");
+        Console.WriteLine("Provide first number for decimal division");
+        double decimalOne = double.Parse(Console.ReadLine());
+        Console.WriteLine("Provide second number for decimal division");
+        double decimalTwo = double.Parse(Console.ReadLine());
+        Console.WriteLine($"{decimalOne} / {decimalTwo} = {decimalOne / decimalTwo}");
+        Console.WriteLine("Provide first number for modulus");
+        int modulusOne = int.Parse(Console.ReadLine());
+        Console.WriteLine("Provide second number for modulus");
+        int modulusTwo = int.Parse(Console.ReadLine());
+        Console.WriteLine($"{modulusOne} % {modulusTwo} = {modulusOne % modulusTwo}");
     }
 }
